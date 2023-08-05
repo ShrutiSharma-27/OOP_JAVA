@@ -25,4 +25,5 @@
   * Behaviour : represented by the methods of the object.
 
 > Variables inside the object are called instance variables. Example : student_1 is an object of class Student. Then, roll_no, name, & marks are the instance variables.
+
 > (.) Dot Operator : In Java, its categorised as separator.

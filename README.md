@@ -15,3 +15,14 @@
       -------
   
   }
+
+### Object :
+* an instance of a class (physical stuff of that class -> like a newborn baby of human class).
+* physical reality (sth that actually occupies space in memory).
+* characterised by :
+  * State : represented by attributes of an object. reflect properties of an object. value from its datatype.
+  * Identity : gives unique name to an object & hence helps to distinguish between 2 objects of the same class. enables 1 object to interact with other.
+  * Behaviour : represented by the methods of the object.
+
+> Variables inside the object are called instance variables. Example : student_1 is an object of class Student. Then, roll_no, name, & marks are the instance variables.
+> (.) Dot Operator : In Java, its categorised as separator.

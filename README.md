@@ -27,3 +27,7 @@
 > Variables inside the object are called instance variables. Example : student_1 is an object of class Student. Then, roll_no, name, & marks are the instance variables.
 
 > (.) Dot Operator : In Java, its categorised as separator.
+
+* declaration  :
+
+  Student student_1;  //only declaring the reference to the object  //no object is really created yet  //only reference is set up  //no initialisation is done  //only the reference variable get stored in stack and by default in Java it is pointing to null.

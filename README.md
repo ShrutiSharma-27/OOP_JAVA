@@ -9,5 +9,9 @@
 * Syntax to create a class :
 
   class Student {
+  
       -------
+
+      -------
+  
   }

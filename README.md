@@ -39,3 +39,4 @@
   Student student_1 = new Student() ;  //new keyword dynamically allocates the memory at runtime and returns a reference to it that will get stored in student_1.  //all class objects in Java must be allocated dynamically.
 
 > In Java, we can't access/manipulate memory address due to safety reasons.
+* When you create an object of a class, then it means that it is being instantiated.

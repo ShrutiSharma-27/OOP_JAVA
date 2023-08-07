@@ -33,4 +33,7 @@
   Student student_1;  //only declaring the reference to the object  //no object is really created yet  //only reference is set up  //no initialisation is done  //only the reference variable get stored in stack and by default in Java it is pointing to null.
 * Creation :
 
-  student_1 = new Student() ;  //new keyword dynamically allocates the memory at runtime and returns a reference to it that will get stored in student_1.  //all class objects in Java must be allocated dynamically
+  //LHS will execute at compile time and RHS will get executed at runtime.
+  Student student_1 = new Student() ;  //new keyword dynamically allocates the memory at runtime and returns a reference to it that will get stored in student_1.  //all class objects in Java must be allocated dynamically.
+
+> In Java, we can't access/manipulate memory address due to safety reasons.

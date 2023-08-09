@@ -40,3 +40,5 @@
 
 > In Java, we can't access/manipulate memory address due to safety reasons.
 * When you create an object of a class, then it means that it is being instantiated.
+
+> Java is static type language.

@@ -61,5 +61,9 @@
 
 > In Java, with primitives everything is pass by value. There is no concept of pass by reference for them.
 
-### final
-* you can prevent your content to be modified.
+### final Keyword
+* you can prevent your content to get modified.
+* acts like const keyword in CPP.
+* convention : if declaring a final vraiable then it's all letters should be capital.
+* final int INCREASE = 2; //now INCREASE can't be modified.
+* final variables have to be initialised, they can't be just declared and assigned value later on.

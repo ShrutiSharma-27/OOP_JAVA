@@ -67,3 +67,9 @@
 * convention : if declaring a final vraiable then it's all letters should be capital.
 * final int INCREASE = 2; //now INCREASE can't be modified.
 * final variables have to be initialised, they can't be just declared and assigned value later on.
+* mainly work for primitives (immutability of value) as if you have instance variable of reference type that has final keyword then due to final keyword this object will always point/refer to the same object always (can't be modified) but it's value can be changed.
+
+final Student one = new Student();
+Student two = new Student();
+one = two; //this will generate error
+two.roll_no = 5; //you can change value of object

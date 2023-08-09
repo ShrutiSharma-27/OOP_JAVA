@@ -51,3 +51,10 @@
 * a reference variable that refers to the current object.
 * in order to access/refer your object inside the class template, you've to use this keyword.
 * significantly used to eliminate the confusion between class attributes and parameters with the same name (because a class attribute is shadowed by a method or constructor parameter).
+* also used to call a constructor from another constructor.
+
+> In Java, primitive datatypes aren't implemented as objects so the new keyword is not used with them. Primitives aren't objects that's why they get stored in stack memory unlike objects get stored in heap memory. This is done to increase efficiency and make it fast (by avoiding the involvment of heap memory for primitives).
+
+> Student one = new Student() ;
+
+> Student two = one ; //two will point to the same object as one is pointing to //doesn't mean copy any part or allocate new memory 

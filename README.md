@@ -45,4 +45,8 @@
 
 ### Constructor
 * A CONSTRUCTOR basically defines what will happen when an object is created. It is a special function that runs when you create an object and it allocates some variables. In nutshell, a constructor in Java is a special method that is used to initialize objects.
-* There is a default type constructor which don't take any arguments(not created by us, its default)
+* There is a default type constructor which don't take any arguments(if created by us then it'll be called otherwise default constructor by Java is called)
+
+### this Keyword
+* a reference variable that refers to the current object.
+* in order to access/refer your object inside the class template, you've to use this keyword.

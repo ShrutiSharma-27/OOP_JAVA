@@ -58,3 +58,8 @@
 > Student one = new Student() ;
 
 > Student two = one ; //two will point to the same object as one is pointing to //doesn't mean copy any part or allocate new memory 
+
+> In Java, with primitives everything is pass by value. There is no concept of pass by reference for them.
+
+### final
+* you can prevent your content to be modified.

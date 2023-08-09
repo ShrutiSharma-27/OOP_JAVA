@@ -42,3 +42,7 @@
 * When you create an object of a class, then it means that it is being instantiated.
 
 > Java is static type language.
+
+### Constructor
+* A CONSTRUCTOR basically defines what will happen when an object is created. It is a special function that runs when you create an object and it allocates some variables. In nutshell, a constructor in Java is a special method that is used to initialize objects.
+* There is a default type constructor which don't take any arguments(not created by us, its default)

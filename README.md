@@ -50,3 +50,4 @@
 ### this Keyword
 * a reference variable that refers to the current object.
 * in order to access/refer your object inside the class template, you've to use this keyword.
+* significantly used to eliminate the confusion between class attributes and parameters with the same name (because a class attribute is shadowed by a method or constructor parameter).
